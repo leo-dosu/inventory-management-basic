@@ -5,7 +5,7 @@ COM121, Task app manager development
 **Name:** Williams Fadejimi Eniola
 **Matric No:** F/ND/25/3210016
 
-## Feature 1: Vendor Management Portal
+## Feature 1: Vendor profile database
 - **Description:** A dashboard that gives each vendor their own login to manage their supply relationship with the business, instead of relying on emails or spreadsheets.
 - **Key Functionality:**
   - Vendors can view stock levels for the products they supply.
@@ -13,7 +13,7 @@ COM121, Task app manager development
   - Vendors can check invoice status and payment history without contacting staff.
   - **Relevance:** Reduces manual follow-up, prevents stockouts, and centralizes vendor records.
 
-## Feature 2: Vendor Performance Reporting
+## Feature 2: Vendor categorization and rating/performance scoring
 - **Description:** A reporting tool that tracks vendor performance over time using existing POS transaction data.
 - **Key Functionality:**
   - Calculates on-time delivery percentage per vendor.
