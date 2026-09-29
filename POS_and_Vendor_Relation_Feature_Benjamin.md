@@ -1,4 +1,5 @@
 #FEATURES UPDATES: POS and Vendor Relation System
+Matric: F/ND/25/3210285
 
 ##FEATURE 1: VENDOR MANAGEMENT -**Description:**
 The vendor Management feature allows the system to store and manage information about suppliers who provide products to the business. This feature is based on vendor-management functionalitty found in POS systems such as Square, where businesses can create, edit, deactivate, and organize vendor records.
