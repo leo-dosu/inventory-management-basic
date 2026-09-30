@@ -1,7 +1,6 @@
 # pos-and-vendor-relations-system-group-7
 COM121, Task app manager development
 # Feature Updates: POS System
-# Feature Updates: POS System
 
 **Name:** Williams Fadejimi Eniola
 **Matric No:** F/ND/25/3210016
