@@ -5,53 +5,92 @@
 **Name:** OLADELE DAVID  
 **Matric Number:** F/ND/25/3210356
 
----
+  # 1. Offline Mode & Data Synchronization
 
-# 1. Profit and Loss Summary
+## Description
 
-The Profit and Loss Summary feature provides an overview of the business's financial performance.
+Lets registers keep selling when the internet connection fails. Transactions are stored locally and automatically sent to the central system when the connection returns.
 
-### Features
-- Total Sales
-- Cost of Goods Sold
-- Total Expenses
-- Gross Profit
-- Net Profit/Loss
-- Profit and loss report for a selected period
+## Purpose
 
-### Sample Summary
+Network outages should not stop sales. Without offline capability, a business loses revenue and customers during downtime, or staff fall back to paper records that are easily lost.
 
-| Description | Amount |
-|---|---:|
-| Total Sales | ₦500,000 |
-| Cost of Goods | ₦300,000 |
-| Expenses | ₦50,000 |
-| Net Profit | ₦150,000 |
+## How It Works
 
----
+1. The POS keeps a local copy of the catalog, prices and key settings.
+2. When the connection drops, the terminal switches to offline mode and keeps recording sales locally.
+3. Payment methods that need online authorisation may be limited; cash and queued payments continue.
+4. When the connection returns, queued transactions are uploaded in order.
+5. The server updates stock and reports, and flags any conflicts (for example, the same item sold at two terminals while offline).
 
-# 2. Sales by Cashier or Branch
+## Information Required
 
-This feature allows management to view and monitor sales made by individual cashiers or different branches.
+- Local cached product, price and tax data
+- Local storage for pending transactions
+- Timestamps and terminal IDs for ordering and conflict checks
+- Sync rules and conflict-handling settings
 
-### Features
-- View sales by cashier
-- View sales by branch
-- Filter sales by date
-- Display total sales
-- Compare sales performance
+## Output / Action
 
-### Sample Sales Report
+- Uninterrupted sales during outages
+- Automatic upload and reconciliation after reconnection
+- Conflict or error alerts for manager review
 
-| Cashier/Branch | Total Sales |
-|---|---:|
-| Cashier 1 | ₦120,000 |
-| Cashier 2 | ₦95,000 |
-| Lagos Branch | ₦250,000 |
-| Abuja Branch | ₦150,000 |
+## Benefits
 
----
+- No lost sales during network failures
+- Reliable records after recovery, with no manual re-entry
+- Stock and reports catch up automatically
 
-## Conclusion
+## Limitations / Dependencies
 
-These features help the business monitor its financial performance and track sales activities across cashiers and branches.
+- Stock levels are temporarily out of date while offline
+- Some payment types (cards, wallets) may not work without a connection
+- Needs well-designed conflict handling and enough local storage
+
+  # 2. Employee Roles, Permissions & Shift Management
+
+## Description
+
+Controls who can use the system and what they can do. Staff get accounts with role-based permissions (cashier, supervisor, manager, purchasing officer, admin), and the system tracks clock-in/out and sales per employee.
+
+## Purpose
+
+A POS handles money, stock and supplier data. Without access control, anyone can change prices, void sales, or approve vendor payments, and there is no accountability for errors or theft.
+
+## How It Works
+
+1. An admin creates user accounts and assigns each a role.
+2. Each role has a defined set of allowed actions (for example, cashiers cannot edit prices; only purchasing staff can create purchase orders).
+3. Staff log in with a PIN or password and clock in at the start of a shift.
+4. Sensitive actions (voids, large discounts, refunds, payment approvals) require supervisor approval.
+5. All actions are logged against the user and time.
+
+## Information Required
+
+- Employee details and assigned roles
+- Permission matrix for each role
+- Login credentials (PIN/password)
+- Shift times and clock-in/out events
+
+## Output / Action
+
+- Authorised or blocked actions based on role
+- Audit log of sensitive actions
+- Timesheets and per-employee sales summaries
+
+## Benefits
+
+- Reduces fraud and accidental changes
+- Clear accountability for every transaction and approval
+- Separates duties between selling, purchasing and paying vendors
+
+## Limitations / Dependencies
+
+- Roles must be carefully designed and reviewed
+- Weak passwords or shared PINs defeat the control
+- Depends on a reliable user directory kept up to date as staff join or leave
+
+
+
+
