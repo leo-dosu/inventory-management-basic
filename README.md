@@ -2,7 +2,7 @@
 A POS and vendor relations management system for COM121, Task App Manager Development.
 
 ## Project Overview
-This project is designed to manage:
+This project is designed to manage 20 features:
 - Purchase order creation & tracking
 - Vendor returns & claims management
 - Vendor profile & master database
@@ -21,6 +21,9 @@ This project is designed to manage:
 - Real-time inventory tracking
 - Product catalog, variants & barcode management
 - Employee roles, permissions & shift management
+- Vendor Invoice Verification & Three-Way Matching
+- Vendor performance scorecards
+
 
 ## Objectives
 - Simplify point-of-sale operations
