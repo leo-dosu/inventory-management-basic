@@ -6,14 +6,16 @@ This project is designed to manage:
 - purchase order creation & tracking
 - vendor returns & claims management
 - vendor profile & master database
-- discount promotions & pricing rules
+- Vendor Communication Log & Supplier Portal
 - vendor payables & payment tracking
 - vendor profile & master database
 - sales reporting & analytics
 - customer returns & receipt management
 - offline mode & data synchronization
 - employee roles, permissions & shift management
-- discounts, promo
+- discounts, promotions & pricing rules
+- vendor returns & claims management
+- 
 
 ## Objectives
 - Simplify point-of-sale operations
