@@ -4,49 +4,49 @@
 **Matric No:** F/ND/25/3210240
 
 
- # 1. Vendor Contract & Pricing Management
+ # 1. Vendor Invoice Verification & Three-Way Matching
 
 ## Description
 
-Stores vendor contracts and agreed terms (prices, discounts, payment terms, delivery commitments, validity dates) and links them to the vendor and to the products they cover.
+Checks every vendor invoice against the purchase order and the goods receipt before it can be approved for payment. Quantity, price and item details must agree within an allowed tolerance.
 
 ## Purpose
 
-Agreed terms are easily forgotten or applied inconsistently. Missed renewal dates and unnoticed price changes cost money and weaken the business's negotiating position.
+Vendors can bill for goods that were not delivered, at the wrong price, or twice. Paying without checking leads to overpayments, duplicate payments and fraud risk.
 
 ## How It Works
 
-1. A contract record is created for a vendor with start and end dates, terms and an uploaded copy of the agreement.
-2. Agreed prices and discounts are saved against the relevant products.
-3. When a PO is created, the contract price and payment terms are used by default.
-4. The system sends reminders before a contract expires or needs renewal.
-5. Price changes are logged so the business can see cost history per product.
+1. The vendor invoice is entered or uploaded and linked to its PO.
+2. The system retrieves the PO (what was ordered) and the goods receipt (what arrived).
+3. It compares quantity, unit price and total across the three documents.
+4. If everything matches within tolerance, the invoice is marked ready for approval.
+5. Mismatches are flagged to a reviewer, who can query the vendor, correct a record, or reject the invoice.
 
 ## Information Required
 
-- Contract documents and key terms
-- Start, end and renewal dates
-- Agreed prices, discounts and payment terms
-- Linked vendor and products
-- Contract owner
+- Vendor invoice (number, date, lines, totals, tax)
+- Linked purchase order
+- Linked goods receipt note
+- Tolerance rules (for price and quantity)
+- Reviewer and approver roles
 
 ## Output / Action
 
-- Contract terms applied to purchase orders
-- Renewal and expiry alerts
-- Cost price history per product and vendor
+- Match status (matched, mismatched, on hold)
+- Discrepancy list for review
+- Invoice approved for payment or rejected/queried
 
 ## Benefits
 
-- Terms are actually followed on every order
-- No surprise lapses in contracts
-- Cost history supports negotiation and margin decisions
+- Prevents paying for undelivered or mispriced goods
+- Detects duplicate invoices
+- Creates an audit trail that supports vendor disputes
 
 ## Limitations / Dependencies
 
-- Terms must be entered correctly and kept up to date
-- Legal review of contracts happens outside the system
-- Price changes should update the product catalog's cost field
+- Needs a PO and a goods receipt for every purchase to work properly
+- Services without physical receipt may use a simpler two-way match
+- Tolerance settings must be set sensibly to avoid too many false alerts
 
 
  # 2. Vendor Performance Scorecards
