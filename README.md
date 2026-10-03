@@ -3,12 +3,17 @@ A POS and vendor relations management system for COM121, Task App Manager Develo
 
 ## Project Overview
 This project is designed to manage:
-- sales transactions
-- inventory flow
-- vendor records
-- supplier relationships
-- order processing
-- reporting and monitoring
+- purchase order creation & tracking
+- vendor returns & claims management
+- vendor profile & master database
+- discount promotions & pricing rules
+- vendor payables & payment tracking
+- vendor profile & master database
+- sales reporting & analytics
+- customer returns & receipt management
+- offline mode & data synchronization
+- employee roles, permissions & shift management
+- discounts, promo
 
 ## Objectives
 - Simplify point-of-sale operations
