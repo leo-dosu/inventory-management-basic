@@ -3,24 +3,24 @@ A POS and vendor relations management system for COM121, Task App Manager Develo
 
 ## Project Overview
 This project is designed to manage:
-- purchase order creation & tracking
-- vendor returns & claims management
-- vendor profile & master database
+- Purchase order creation & tracking
+- Vendor returns & claims management
+- Vendor profile & master database
 - Vendor Communication Log & Supplier Portal
-- vendor payables & payment tracking
-- vendor profile & master database
-- sales reporting & analytics
-- customer returns & receipt management
-- offline mode & data synchronization
-- employee roles, permissions & shift management
-- discounts, promotions & pricing rules
-- vendor contact & pricing management
-- sales checkout & transaction processing
-- multi-payment & split tender processing
-- customer management & loyalty
-- real-time inventory tracking
-- product catalog, variants & barcode management
-- employee roles, permissions & shift management
+- Vendor payables & payment tracking
+- Vendor profile & master database
+- Sales reporting & analytics
+- Customer returns & receipt management
+- Offline mode & data synchronization
+- Employee roles, permissions & shift management
+- Discounts, promotions & pricing rules
+- Vendor contact & pricing management
+- Sales checkout & transaction processing
+- Multi-payment & split tender processing
+- Customer management & loyalty
+- Real-time inventory tracking
+- Product catalog, variants & barcode management
+- Employee roles, permissions & shift management
 
 ## Objectives
 - Simplify point-of-sale operations
@@ -54,12 +54,16 @@ The project may use a combination of:
 
 ## Team
 Group 7 project team:
-- Adebimpe
-- Blessing
-- Emmanuel-Toluwani
-- Nasrulahi
-- Opeyemi
-- Abibatfoladra
+- Salami Benjamin Boluwatife
+- Abibat Foladara
+- Abraham
+- Adebayo Adebimpe Latifat
+- Oladele David
+- Obioma Ugochukwu Emmanuel
+- Odde Opeyemi Samuel (GROUP LEADER)
+- Adeyemi Blessing Ademola
+- Williams Fadejimi Eniola
+- 
 
 ## Repository Purpose
 This repository contains the project files and work related to the POS and vendor relations system for the assigned coursework.
