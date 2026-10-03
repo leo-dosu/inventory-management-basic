@@ -48,46 +48,45 @@ Supplier details kept in emails, notebooks and spreadsheets go out of date and a
 - Bank and payment details need restricted access (see *Employee Roles & Permissions*)
 
 
-# 2. Discounts, Promotions & Pricing Rules
+# 2. Vendor Communication Log & Supplier Portal
 
 ## Description
 
-Lets the business define price reductions and offers (percentage or fixed discounts, buy-X-get-Y, bundle prices, time-limited promotions) and applies them at checkout under permission controls.
+Keeps all communication with each supplier in one place and gives vendors a limited login (portal) where they can confirm orders, update their own details and see order status.
 
 ## Purpose
 
-Promotions drive sales, but manual discounting leads to inconsistent prices, margin loss and staff abuse. This feature applies approved offers consistently and limits who can override prices.
+Order confirmations, delivery changes and price discussions scattered across phone calls and personal emails are easily lost. When a dispute arises, there is no record of what was agreed.
 
 ## How It Works
 
-1. A manager creates a promotion with its type, products or categories, start and end dates.
-2. At checkout, eligible items trigger the rule automatically, or the cashier enters a manual discount within their allowed limit.
-3. Discounts above the cashier's limit need manager approval.
-4. The discount amount and reason are saved with the transaction.
-5. The promotion expires automatically on its end date.
+1. Messages, notes and calls with a vendor are logged on the vendor record.
+2. POs and updates are sent to the vendor through email or the portal.
+3. Vendors log in to the portal to confirm or reject orders, propose delivery dates, and update contacts or documents.
+4. Changes made by the vendor are visible to staff, and key changes can require approval.
+5. Notifications alert staff to new vendor responses.
 
 ## Information Required
 
-- Promotion rules, dates and eligible products/categories
-- Product cost and minimum acceptable margin
-- Discount limits per user role
-- Coupon or voucher codes (if used)
+- Vendor contacts and portal login accounts
+- Messages, notes and attachments
+- PO and delivery status
+- Permission rules for what vendors can see and edit
 
 ## Output / Action
 
-- Adjusted prices on the sale
-- Logged discount amount and approving user
-- Data for promotion performance and margin reports
+- A searchable communication history per vendor
+- Order confirmations and delivery date updates
+- Notifications and reminders for staff
 
 ## Benefits
 
-- Consistent pricing across cashiers and locations
-- Protects margins by capping discounts and requiring approvals
-- Makes it possible to measure which promotions actually worked
+- A clear record that resolves "who said what" disputes
+- Faster order confirmation with less back-and-forth
+- Vendors maintain their own details, reducing admin work
 
 ## Limitations / Dependencies
 
-- Needs cost data from the product catalog to protect margins
-- Overlapping promotions need clear priority rules to avoid double discounts
-- Vendor-funded promotions depend on agreed terms captured in vendor contracts
-
+- Vendors must agree to use the portal
+- Portal access needs strict permissions so vendors see only their own data
+- Requires secure login and basic internet access on the vendor side
