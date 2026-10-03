@@ -66,7 +66,7 @@ Group 7 project team:
 - Odde Opeyemi Samuel (GROUP LEADER)
 - Adeyemi Blessing Ademola
 - Williams Fadejimi Eniola
-- 
+- GodGlory
 
 ## Repository Purpose
 This repository contains the project files and work related to the POS and vendor relations system for the assigned coursework.
