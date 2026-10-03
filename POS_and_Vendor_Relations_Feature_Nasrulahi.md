@@ -3,30 +3,93 @@
 **Name:** Awoniyi Nasrulahi  
 **Matric No:** F/ND/25/3210240
 
-## Feature 1: Purchase Order and Inventory Management
 
-- **Description:** This feature allows a POS system to create and manage purchase orders when products need to be purchased from vendors. It also helps the business monitor stock levels and receive new inventory from suppliers.
+ # 1. Vendor Contract & Pricing Management
 
-- **Key Functionality:**
-  - Create purchase orders for vendors.
-  - Add products, quantities, prices, and expected delivery dates.
-  - Track the status of purchase orders.
-  - Receive stock when the vendor delivers the products.
-  - Automatically update inventory after new stock is received.
-  - Provide low-stock alerts to help the business know when to reorder.
-  - Keep purchase records for future reference.
-  - **Relevance:** This feature helps the POS system maintain accurate stock levels and reduces the risk of running out of products. It also connects purchasing activities with inventory management. Real POS systems such as Shopify and Lightspeed provide purchase-order and inventory-management functions. (Shopify)
+## Description
 
-## Feature 2: Vendor Management and Performance Tracking
+Stores vendor contracts and agreed terms (prices, discounts, payment terms, delivery commitments, validity dates) and links them to the vendor and to the products they cover.
 
-- **Description:** This feature allows a business to store and manage information about its vendors and monitor its relationship with them. The system can keep vendor contact details, prices, order history, payment information, and delivery records.
+## Purpose
 
-- **Key Functionality:**
-  - Create and manage vendor profiles.
-  - Store vendor contact information and payment terms.
-  - Keep records of previous orders and transactions.
-  - Compare vendor prices and purchasing terms.
-  - Track vendor delivery history and performance.
-  - Record vendor payments and outstanding balances.
-  - Keep notes and important information about each vendor.
-  - **Relevance:** Vendor management helps the business maintain organized supplier records and make better purchasing decisions. It also makes it easier to monitor vendor performance and keep track of orders and payments. Square and Zoho Inventory, for example, provide vendor-related information and transaction-management features. (Square)
+Agreed terms are easily forgotten or applied inconsistently. Missed renewal dates and unnoticed price changes cost money and weaken the business's negotiating position.
+
+## How It Works
+
+1. A contract record is created for a vendor with start and end dates, terms and an uploaded copy of the agreement.
+2. Agreed prices and discounts are saved against the relevant products.
+3. When a PO is created, the contract price and payment terms are used by default.
+4. The system sends reminders before a contract expires or needs renewal.
+5. Price changes are logged so the business can see cost history per product.
+
+## Information Required
+
+- Contract documents and key terms
+- Start, end and renewal dates
+- Agreed prices, discounts and payment terms
+- Linked vendor and products
+- Contract owner
+
+## Output / Action
+
+- Contract terms applied to purchase orders
+- Renewal and expiry alerts
+- Cost price history per product and vendor
+
+## Benefits
+
+- Terms are actually followed on every order
+- No surprise lapses in contracts
+- Cost history supports negotiation and margin decisions
+
+## Limitations / Dependencies
+
+- Terms must be entered correctly and kept up to date
+- Legal review of contracts happens outside the system
+- Price changes should update the product catalog's cost field
+
+
+ # 2. Vendor Performance Scorecards
+
+## Description
+
+Measures and ranks suppliers using recorded results such as on-time delivery, order accuracy, product quality, pricing consistency and responsiveness, and presents them as a score or rating per vendor.
+
+## Purpose
+
+Without data, supplier decisions depend on memory and opinion. Scorecards show which vendors are reliable and which cause delays, shortages or quality problems, so the business can reward or replace them.
+
+## How It Works
+
+1. Performance data is collected from existing records: delivery dates against PO dates, received quantities, rejected/defective items, invoice mismatches and returns.
+2. Staff can also add a rating after each order.
+3. Each measure is weighted and combined into an overall vendor score.
+4. Scores are tracked over time to show improvement or decline.
+5. Vendors can be compared side by side or grouped into tiers.
+
+## Information Required
+
+- Promised and actual delivery dates
+- Ordered vs received quantities
+- Quality/defect and return records
+- Invoice discrepancy history
+- Staff ratings and scoring weights
+
+## Output / Action
+
+- Score and rating per vendor
+- Trend charts and vendor comparison reports
+- Flags for underperforming suppliers
+
+## Benefits
+
+- Evidence-based supplier selection and negotiation
+- Early warning about unreliable suppliers
+- Encourages vendors to improve through visible targets
+
+## Limitations / Dependencies
+
+- Depends on complete data from purchase orders, receiving and returns
+- Weightings reflect business priorities and need review
+- A new vendor has too little history for a reliable score
+
