@@ -14,8 +14,13 @@ This project is designed to manage:
 - offline mode & data synchronization
 - employee roles, permissions & shift management
 - discounts, promotions & pricing rules
-- vendor returns & claims management
-- 
+- vendor contact & pricing management
+- sales checkout & transaction processing
+- multi-payment & split tender processing
+- customer management & loyalty
+- real-time inventory tracking
+- product catalog, variants & barcode management
+- employee roles, permissions & shift management
 
 ## Objectives
 - Simplify point-of-sale operations
