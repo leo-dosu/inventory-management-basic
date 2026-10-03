@@ -1,4 +1,5 @@
 #FEATURES UPDATES: POS and Vendor Relation System
+Name: Salami Benjamin Boluwatife
 Matric: F/ND/25/3210285
 
 # 1. Purchase Order Creation & Tracking
