@@ -1,0 +1,27 @@
+# Java and Maven build outputs
+target/
+*.class
+
+# Vaadin generated frontend files
+**/src/main/frontend/generated/
+**/frontend/generated/
+**/node_modules/
+**/package-lock.json
+**/pnpm-lock.yaml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
