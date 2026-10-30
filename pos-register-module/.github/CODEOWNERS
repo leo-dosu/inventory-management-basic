@@ -1,0 +1,201 @@
+# CODEOWNERS: who owns which file or folder.
+# Each owner is shown as @USERNAME_<FIRSTNAME>. Replace it with that your real GitHub username.
+
+# ---------- Whole project: leaders ----------
+/pom.xml    @cosmicdosh01-maker @Liquidity12
+/.github/   @cosmicdosh01-maker @Liquidity12
+
+# ---------- ODDE OPEYEMI SAMUEL (F/ND/25/3210122), Group 7 group leader ----------
+/src/main/java/com/inventory/pos/core/domain/Product.java                  @cosmicdosh01-maker   # CORE-1
+/src/main/java/com/inventory/pos/core/domain/Customer.java                 @cosmicdosh01-maker   # CORE-1
+/src/main/java/com/inventory/pos/core/domain/Invoice.java                  @cosmicdosh01-maker   # CORE-2
+/src/main/java/com/inventory/pos/core/domain/InvoiceLine.java              @cosmicdosh01-maker   # CORE-2
+/src/main/java/com/inventory/pos/core/domain/Payment.java                  @cosmicdosh01-maker   # CORE-2
+/src/main/java/com/inventory/pos/core/domain/PaymentMethod.java            @cosmicdosh01-maker   # CORE-2
+/src/main/java/com/inventory/pos/core/domain/InvoiceStatus.java            @cosmicdosh01-maker   # CORE-2
+/src/main/java/com/inventory/pos/core/repository/                          @cosmicdosh01-maker   # CORE-3
+/src/main/java/com/inventory/pos/core/domain/Reminder.java                 @cosmicdosh01-maker   # CORE-3
+/src/main/java/com/inventory/pos/debt/service/DebtPaymentService.java      @cosmicdosh01-maker   # DEBT-2
+/src/main/java/com/inventory/pos/debt/service/PaymentAllocation.java       @cosmicdosh01-maker   # DEBT-2
+/src/main/java/com/inventory/pos/debt/service/DebtPaymentResult.java       @cosmicdosh01-maker   # DEBT-2
+/src/test/java/com/inventory/pos/debt/service/DebtPaymentServiceTest.java  @cosmicdosh01-maker   # DEBT-2
+/src/test/java/com/inventory/pos/e2e/                                      @cosmicdosh01-maker   # QA-1
+/src/main/java/com/inventory/pos/PosApplication.java                       @cosmicdosh01-maker   # shared file
+/src/main/java/com/inventory/pos/core/BusinessException.java               @cosmicdosh01-maker   # shared file
+/src/main/java/com/inventory/pos/core/PosConfig.java                       @cosmicdosh01-maker   # shared file
+/src/test/java/com/inventory/pos/ArchitectureTest.java                     @cosmicdosh01-maker   # shared file
+/src/test/java/com/inventory/pos/support/PosDataTest.java                  @cosmicdosh01-maker   # shared file
+
+# ---------- Israel Usman (F/ND/25/3210261), Group 6 group leader ----------
+/src/main/java/com/inventory/pos/shell/MainLayout.java                      @Liquidity12   # SHELL-1
+/src/main/java/com/inventory/pos/shell/NavEntry.java                        @Liquidity12   # SHELL-1
+/src/main/java/com/inventory/pos/shell/Routes.java                          @Liquidity12   # SHELL-1
+/src/main/java/com/inventory/pos/shared/ui/                                 @Liquidity12   # SHELL-2
+/src/main/java/com/inventory/pos/register/service/CheckoutService.java      @Liquidity12   # REG-1
+/src/main/java/com/inventory/pos/register/service/CheckoutRequest.java      @Liquidity12   # REG-1
+/src/main/java/com/inventory/pos/register/service/CartLine.java             @Liquidity12   # REG-1
+/src/test/java/com/inventory/pos/register/service/CheckoutServiceTest.java  @Liquidity12   # REG-1
+/docs/DEMO-SCRIPT.md                                                        @Liquidity12   # QA-2
+/src/main/java/com/inventory/pos/register/ui/PosView.java                   @Liquidity12   # shared file
+/src/main/java/com/inventory/pos/register/ui/RegisterNav.java               @Liquidity12   # shared file
+/src/main/java/com/inventory/pos/invoices/ui/InvoicesNav.java               @Liquidity12   # shared file
+
+# ---------- Salami Benjamin Boluwatife (F/ND/25/3210285), Group 7 member ----------
+/src/main/java/com/inventory/pos/register/ui/Cart.java              @salamibenbolu-ui   # REG-2
+/src/test/java/com/inventory/pos/register/ui/CartTest.java          @salamibenbolu-ui   # REG-2
+/src/main/java/com/inventory/pos/register/ui/ProductCatalogue.java  @salamibenbolu-ui   # REG-3
+
+# ---------- Abibat Foladara Omosanya (F/ND/25/3210213), Group 6 member ----------
+/src/main/java/com/inventory/pos/register/ui/CartPanel.java  @USERNAME_ABIBAT   # REG-4
+
+# ---------- Saadu Quadri Bolaji (F/ND/25/3210151), Group 6 member ----------
+/src/main/java/com/inventory/pos/register/ui/CheckoutDialog.java  @bolajiq664-cyber   # REG-5
+
+# ---------- Uche Gift Ebube (F/ND/25/3210114), Group 6 member ----------
+/src/main/java/com/inventory/pos/register/ui/CustomItemDialog.java  @USERNAME_UCHE   # REG-6
+/src/main/resources/META-INF/resources/styles/register.css          @USERNAME_UCHE   # REG-7
+
+# ---------- Ogundare Omoyemi Victoria (F/nd/25/3210233), Group 6 member ----------
+/src/main/java/com/inventory/pos/invoices/service/InvoiceService.java      @Ajikeade-Ade   # INV-1
+/src/main/java/com/inventory/pos/invoices/service/InvoiceFilter.java       @Ajikeade-Ade   # INV-1
+/src/main/java/com/inventory/pos/invoices/service/InvoiceSummary.java      @Ajikeade-Ade   # INV-1
+/src/main/java/com/inventory/pos/invoices/service/InvoiceDetail.java       @Ajikeade-Ade   # INV-1
+/src/test/java/com/inventory/pos/invoices/service/InvoiceServiceTest.java  @Ajikeade-Ade   # INV-1
+
+# ---------- Williams Fadejimi Eniola (F/ND/25/3210016), Group 6 member ----------
+/src/main/java/com/inventory/pos/invoices/ui/InvoicesView.java   @TWENTY2-22   # INV-2
+/src/main/java/com/inventory/pos/invoices/ui/PaymentDialog.java  @TWENTY2-22   # INV-3
+
+# ---------- Isaac Daniel Ukwuoma (F/ND/25/3210281), Group 6 member ----------
+/src/main/java/com/inventory/pos/invoices/ui/InvoiceDetailDialog.java  @USERNAME_ISAAC   # INV-4
+
+# ---------- Adeniyi Omoseeke Inioluwa (F/ND/25/3210001), Group 6 member ----------
+/src/main/java/com/inventory/pos/invoices/pdf/InvoicePdf.java       @omoseekeinioluwa-boop  # INV-5
+/src/main/java/com/inventory/pos/invoices/ui/InvoiceDownloads.java  @omoseekeinioluwa-boop   # INV-5
+/src/test/java/com/inventory/pos/invoices/pdf/InvoicePdfTest.java   @omoseekeinioluwa-boop  # INV-5
+
+# ---------- Lawal AbdulBasit Ayinde (F/ND/25/3210206), Group 6 member ----------
+/src/main/resources/META-INF/resources/styles/invoices.css    @USERNAME_LAWAL   # INV-6
+/src/main/java/com/inventory/pos/invoices/ui/InvoiceCsv.java  @USERNAME_LAWAL   # INV-6
+
+# ---------- Yusuf Anifat Titilope (F/ND/25/3210110), Group 6 member ----------
+/src/main/java/com/inventory/pos/customers/service/CustomerService.java      @USERNAME_YUSUF   # CUS-1
+/src/main/java/com/inventory/pos/customers/service/CustomerForm.java         @USERNAME_YUSUF   # CUS-1
+/src/main/java/com/inventory/pos/customers/service/CustomerAccount.java      @USERNAME_YUSUF   # CUS-1
+/src/test/java/com/inventory/pos/customers/service/CustomerServiceTest.java  @USERNAME_YUSUF   # CUS-1
+
+# ---------- Afolabi Ayomide Praise (F/ND/25/3210166), Group 6 member ----------
+/src/main/java/com/inventory/pos/customers/ui/CustomersView.java   @USERNAME_AFOLABI   # CUS-2
+/src/main/java/com/inventory/pos/customers/ui/CustomersNav.java    @USERNAME_AFOLABI   # CUS-2
+/src/main/resources/META-INF/resources/styles/customers.css        @USERNAME_AFOLABI   # CUS-2
+/src/main/java/com/inventory/pos/customers/ui/CustomerDialog.java  @USERNAME_AFOLABI   # CUS-3
+
+# ---------- Adebayo Adebimpe Latifat (F/ND/25/3210362), Group 6 member ----------
+/src/main/java/com/inventory/pos/customers/service/CustomerHistoryService.java  @codecrushcode  # CUS-4
+/src/main/java/com/inventory/pos/customers/ui/CustomerHistoryDialog.java        @codecrushcode   # CUS-4
+
+# ---------- Ikonagbon Faith Osose (F/ND/25/3210005), Group 6 member ----------
+/src/main/java/com/inventory/pos/customerreturns/domain/      @faith-1439   # CRET-1
+/src/main/java/com/inventory/pos/customerreturns/repository/  @faith-1439   # CRET-1
+/src/main/java/com/inventory/pos/customerreturns/service/     @faith-1439   # CRET-1
+/src/test/java/com/inventory/pos/customerreturns/             @faith-1439   # CRET-1
+
+# ---------- Adeyemi Blessing Adedamola (F/ND/25/3210080), Group 6 member ----------
+/src/main/java/com/inventory/pos/customerreturns/ui/               @devbless001   # CRET-2
+/src/main/resources/META-INF/resources/styles/customerreturns.css  @devbless001   # CRET-2
+
+# ---------- Mohammed Ahmed Ayomide ( F/ND/25/3210255), Group 6 member ----------
+/src/main/java/com/inventory/pos/salesreports/service/  @Ahmed12-Ay # REP-1
+/src/test/java/com/inventory/pos/salesreports/          @Ahmed12-Ay  # REP-1
+
+# ---------- Obioma Ugochukwu Emmanuel (F/ND/25/3210351), Group 6 member ----------
+/src/main/java/com/inventory/pos/salesreports/ui/               @uemmanuel396   # REP-2
+/src/main/resources/META-INF/resources/styles/salesreports.css  @uemmanuel396   # REP-2
+
+# ---------- Ogunware Abdulwasiu Olamide (F/ND/25/3210320), Group 6 member ----------
+/src/main/java/com/inventory/pos/loyalty/  @ogunwareolamide8-ui   # LOY-1
+
+# ---------- Kpokonu David Odunayo (F/ND/25/3210048), Group 6 member ----------
+/src/main/resources/META-INF/resources/styles/base.css  @USERNAME_KPOKONU   # SHELL-3
+/src/main/java/com/inventory/pos/shared/pdf/Pdf.java    @USERNAME_KPOKONU   # SHELL-4
+
+# ---------- Olaoluwa Enoch Toluwalase (F/ND/25/3210154), Group 7 member ----------
+/src/main/java/com/inventory/pos/debt/service/DebtService.java      @USERNAME_OLAOLUWA   # DEBT-1
+/src/main/java/com/inventory/pos/debt/service/DebtOverview.java     @USERNAME_OLAOLUWA   # DEBT-1
+/src/main/java/com/inventory/pos/debt/service/Debtor.java           @USERNAME_OLAOLUWA   # DEBT-1
+/src/main/java/com/inventory/pos/debt/service/DebtFilter.java       @USERNAME_OLAOLUWA   # DEBT-1
+/src/test/java/com/inventory/pos/debt/service/DebtServiceTest.java  @USERNAME_OLAOLUWA   # DEBT-1
+
+# ---------- Churchill Samuel Kelechi (F/ND/25/3210263), Group 7 member ----------
+/src/main/java/com/inventory/pos/debt/service/ReminderService.java      @maverick17-mav   # DEBT-3
+/src/main/java/com/inventory/pos/debt/ui/ReminderDialog.java            @maverick17-mav   # DEBT-3
+/src/test/java/com/inventory/pos/debt/service/ReminderServiceTest.java  @maverick17-mav   # DEBT-3
+
+# ---------- Yekini Abdulrahmon Akorede (F/ND/25/3210076), Group 7 member ----------
+/src/main/java/com/inventory/pos/debt/ui/DebtView.java  @rahmonabdul297-stack   # DEBT-4
+
+# ---------- Idama Daniel Oghenekparoboh (F/ND/25/3210317), Group 7 member ----------
+/src/main/java/com/inventory/pos/debt/ui/DebtPaymentDialog.java  @USERNAME_IDAMA   # DEBT-5
+
+# ---------- Akukwe Virginia Chizoba (F/ND/25/3210284), Group 7 member ----------
+/src/main/java/com/inventory/pos/debt/service/StatementService.java      @akukwevirginia6   # DEBT-6
+/src/main/java/com/inventory/pos/debt/service/Statement.java             @akukwevirginia6   # DEBT-6
+/src/main/java/com/inventory/pos/debt/pdf/StatementPdf.java              @akukwevirginia6   # DEBT-6
+/src/main/java/com/inventory/pos/debt/ui/StatementDownloads.java         @akukwevirginia6   # DEBT-6
+/src/test/java/com/inventory/pos/debt/service/StatementServiceTest.java  @akukwevirginia6   # DEBT-6
+/src/test/java/com/inventory/pos/debt/pdf/StatementPdfTest.java          @akukwevirginia6   # DEBT-6
+
+# ---------- Oyebode Abdulganiu Adebola (F/ND/25/3210194), Group 7 member ----------
+/src/main/resources/META-INF/resources/styles/debt.css  @USERNAME_OYEBODE   # DEBT-7
+/src/main/java/com/inventory/pos/debt/ui/DebtNav.java   @USERNAME_OYEBODE   # DEBT-7
+
+# ---------- Oladele David Oluwaseun (F/ND/25/3210356), Group 7 member ----------
+/src/main/java/com/inventory/pos/demo/DemoDataSeeder.java                   @oluwaseunoladele461-spec   # CORE-4
+/src/main/java/com/inventory/pos/inventory/service/ProductService.java      @oluwaseunoladele461-spec   # STK-1
+/src/main/java/com/inventory/pos/inventory/service/ProductForm.java         @oluwaseunoladele461-spec   # STK-1
+/src/test/java/com/inventory/pos/inventory/service/ProductServiceTest.java  @oluwaseunoladele461-spec   # STK-1
+
+# ---------- OLUWASEGUN EMMANUEL TOLUWANI (F/ND/25/321301), Group 7 member ----------
+/src/main/java/com/inventory/pos/inventory/ui/InventoryView.java  @Emmykeys001   # STK-2
+/src/main/java/com/inventory/pos/inventory/ui/InventoryNav.java   @Emmykeys001   # STK-2
+/src/main/resources/META-INF/resources/styles/inventory.css       @Emmykeys001   # STK-2
+
+# ---------- Odeyemi Joseph Ayomide (F/ND/25/3210205), Group 7 member ----------
+/src/main/java/com/inventory/pos/inventory/ui/ProductDialog.java  @josnifemiodeyemi989-dotcom   # STK-3
+
+# ---------- Salaudeen Abdul Malik Adeniyi (F/ND/25/3210332), Group 7 member ----------
+/src/main/java/com/inventory/pos/inventory/domain/StockMovement.java      @salaudeenabdulmalik27-igtm   # STK-4
+/src/main/java/com/inventory/pos/inventory/service/StockService.java      @salaudeenabdulmalik27-igtm   # STK-4
+/src/main/java/com/inventory/pos/inventory/ui/StockAdjustmentDialog.java  @salaudeenabdulmalik27-igtm   # STK-4
+
+# ---------- Oyewo Omotolani Emmanuel (F/ND/25/3210191), Group 7 member ----------
+/src/main/java/com/inventory/pos/vendors/domain/      @oyewoomotolani65-cpu  # VEN-1
+/src/main/java/com/inventory/pos/vendors/repository/  @oyewoomotolani65-cpu  # VEN-1
+
+# ---------- Alaran Aishat Ololade (F/ND/25/3210293), Group 7 member ----------
+/src/main/java/com/inventory/pos/vendors/service/  @USERNAME_ALARAN   # VEN-2
+/src/test/java/com/inventory/pos/vendors/          @USERNAME_ALARAN   # VEN-2
+
+# ---------- George Godglory Praise (F/ND/25/3210058), Group 7 member ----------
+/src/main/java/com/inventory/pos/vendors/ui/               @godglorygeorge-cmd    # VEN-3
+/src/main/resources/META-INF/resources/styles/vendors.css  @godglorygeorge-cmd   # VEN-3
+
+# ---------- Akinyemi Oluwafemipaul (F/ND/25/3210111), Group 7 member ----------
+/src/main/java/com/inventory/pos/vendorcomms/  @paufx442   # COM-1
+/src/main/java/com/inventory/pos/contracts/    @paufx442   # CON-1
+
+# ---------- Mathew Martha Theresa (F/ND/25/3210161), Group 7 member ----------
+/src/main/java/com/inventory/pos/purchasing/domain/      @USERNAME_MATHEW   # PO-1
+/src/main/java/com/inventory/pos/purchasing/repository/  @USERNAME_MATHEW   # PO-1
+/src/main/java/com/inventory/pos/purchasing/service/     @USERNAME_MATHEW   # PO-1
+/src/test/java/com/inventory/pos/purchasing/             @USERNAME_MATHEW   # PO-1
+
+# ---------- Balogun Sekinat (F/ND/25/3210095), Group 7 member ----------
+/src/main/java/com/inventory/pos/purchasing/ui/               @sekinat-prog   # PO-2
+/src/main/resources/META-INF/resources/styles/purchasing.css  @sekinat-prog   # PO-2
+
+# ---------- Abdulrasheed Abdulquadri Temilade (F/ND/25/3210308), Group 7 member ----------
+/src/main/java/com/inventory/pos/payables/  @USERNAME_ABDULRASHEED   # PAY-1
+
+# ---------- Adeshina Quadri Ayomide (F/ND/25/3210138), Group 7 member ----------
+/src/main/java/com/inventory/pos/vendorreturns/  @USERNAME_ADESHINA   # VRET-1

@@ -1,0 +1,50 @@
+node_modules
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Vaadin (generated on every run, never commit) ###
+src/main/frontend/generated/
+src/main/bundles/
+node_modules/
+.vaadin/
+vite.generated.ts
+vite.config.ts
+package.json
+package-lock.json
+tsconfig.json
+types.d.ts
+
+### Logs and local files ###
+*.log
+.env
