@@ -1,0 +1,15 @@
+vaadin-app-layout::part(content){background:#eef1f5}
+vaadin-app-layout::part(drawer){background:linear-gradient(#1565c0,#1e9bff)}
+vaadin-side-nav-item,vaadin-drawer-toggle{--lumo-body-text-color:#fff;--lumo-secondary-text-color:#fff;--lumo-primary-text-color:#fff;color:#fff}
+.topbar{padding:0 16px}
+.avatar{width:30px;height:30px;border-radius:50%;background:#7a8aa0;display:inline-block}
+.profile-name{font-size:12px;font-weight:600}
+.cat-tabs vaadin-tab{background:#fdd665;color:#3b2d00;border-radius:6px 6px 0 0;margin-right:2px}
+.cat-tabs vaadin-tab[selected]{background:#fbc02d;font-weight:600}
+.stock-card{background:#fff;padding:16px 20px;min-height:420px}
+.stock-title{color:#1e88e5;font-weight:500;font-size:20px;margin:0}
+.btn-blue{background:#1e88e5;color:#fff;border-radius:4px}
+.btn-red{background:#dc3545;color:#fff;border-radius:4px}
+.empty-msg{color:#6b7685;text-align:center;padding:30px}
+.st-Completed::part(input-field){background:#4cb782;color:#fff;border-radius:12px}
+.st-Pending::part(input-field){background:#b7e07a;color:#20350a;border-radius:12px}
