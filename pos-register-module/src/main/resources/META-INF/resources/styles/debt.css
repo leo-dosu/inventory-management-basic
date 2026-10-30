@@ -1,0 +1,43 @@
+/* Debt Recovery screen: the summary cards, the debtor list and the payment review dialog. */
+/* Every selector below starts with .debt-page so it always beats base.css, whatever order the files load in.
+   Keep doing that for anything you add. Dialog classes are the exception: dialogs render outside the page. */
+/* ---------- Debt Recovery ---------- */
+.debt-page .kpi-grid.four { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-bottom: 20px; }
+.debt-page .stat-card { display: flex; flex-direction: column; gap: 6px; padding: 18px 20px; border-radius: var(--radius); background: var(--card); box-shadow: var(--shadow); }
+.debt-page .stat-card.red { box-shadow: inset 0 0 0 1px #fda4af, var(--shadow); }
+.debt-page .stat-card.green { box-shadow: inset 0 0 0 1px #86efac, var(--shadow); }
+.debt-page .stat-label { font-size: 11px; font-weight: 700; letter-spacing: 0.07em; color: var(--muted); }
+.debt-page .stat-card.red .stat-label, .debt-page .stat-card.red .stat-value { color: #be123c; }
+.debt-page .stat-card.green .stat-label, .debt-page .stat-card.green .stat-value { color: var(--success); }
+.debt-page .stat-value { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; }
+.debt-page .stat-sub { font-size: 12px; color: var(--muted); }
+
+.debt-page .debtor-list { display: flex; flex-direction: column; gap: 14px; }
+.debt-page .debtor-row { padding: 18px 22px; border-radius: var(--radius); background: var(--card); box-shadow: var(--shadow); }
+.debt-page .debtor-row.overdue { box-shadow: inset 0 0 0 1px #fda4af, var(--shadow); }
+.debt-page .debtor-top { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; gap: 24px; }
+.debt-page .debtor-title { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.debt-page .debtor-name { font-size: 16px; font-weight: 700; }
+.debt-page .debtor-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; margin-top: 6px; font-size: 13px; color: var(--muted); }
+.debt-page .meta-item { display: inline-flex; align-items: center; gap: 6px; }
+.debt-page .meta-item vaadin-icon { width: 13px; height: 13px; }
+.debt-page .debtor-money { display: flex; flex-direction: column; align-items: flex-end; }
+.debt-page .debtor-balance { font-size: 22px; font-weight: 700; }
+.debt-page .debtor-details { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--line); }
+.debt-page .debtor-invoice { display: grid; grid-template-columns: 160px 1fr auto 130px; align-items: center; gap: 14px; padding: 8px 0; font-size: 13px; }
+.debt-page .debtor-invoice span:last-child { text-align: right; }
+
+/* Payment review dialog */
+.allocation-table { margin-bottom: 14px; }
+.allocation-row { display: grid; grid-template-columns: minmax(0, 1fr) 120px 120px; gap: 10px; padding: 8px 0; font-size: 13px; border-bottom: 1px solid var(--line); }
+.allocation-row span:not(:first-child) { text-align: right; font-family: var(--mono); }
+
+@media (max-width: 1100px) {
+  .debt-page .kpi-grid.four { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .debt-page .debtor-top { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .debt-page .debtor-money { align-items: flex-start; }
+}
+
+@media (max-width: 600px) {
+  .debt-page .kpi-grid.four { grid-template-columns: minmax(0, 1fr); }
+}

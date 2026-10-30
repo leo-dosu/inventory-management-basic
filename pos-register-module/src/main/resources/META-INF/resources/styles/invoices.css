@@ -1,0 +1,4 @@
+/* Invoices screen: the ledger table. */
+/* Every selector below starts with .invoices-page so it always beats base.css, whatever order the files load in.
+   Keep doing that for anything you add. Dialog classes are the exception: dialogs render outside the page. */
+.invoices-page .stacked-cell { display: flex; flex-direction: column; line-height: 1.3; }

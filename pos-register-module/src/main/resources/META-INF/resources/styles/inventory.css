@@ -1,0 +1,4 @@
+/* Inventory screen. The table, search and chips use the shared styling in base.css;
+   put anything specific to this screen here. */
+/* Every selector below starts with .inventory-page so it always beats base.css, whatever order the files load in.
+   Keep doing that for anything you add. Dialog classes are the exception: dialogs render outside the page. */
