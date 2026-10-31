@@ -74,9 +74,9 @@
 /src/main/java/com/inventory/pos/invoices/ui/InvoiceDownloads.java  @omoseekeinioluwa-boop   # INV-5
 /src/test/java/com/inventory/pos/invoices/pdf/InvoicePdfTest.java   @omoseekeinioluwa-boop  # INV-5
 
-# ---------- Amaize Abraham Maxwell(F/ND/25/3210232), Group 6 member ----------
-/src/main/resources/META-INF/resources/styles/invoices.css    @USERNAME_LAWAL   # INV-6
-/src/main/java/com/inventory/pos/invoices/ui/InvoiceCsv.java  @USERNAME_LAWAL   # INV-6
+# ---------- Amaize Abraham Maxwell(F/ND/25/3210232), Group 7 member ----------
+/src/main/resources/META-INF/resources/styles/invoices.css    @abraham206   # INV-6
+/src/main/java/com/inventory/pos/invoices/ui/InvoiceCsv.java  @abraham206   # INV-6
 
 # ---------- Yusuf Anifat Titilope (F/ND/25/3210110), Group 6 member ----------
 /src/main/java/com/inventory/pos/customers/service/CustomerService.java      @USERNAME_YUSUF   # CUS-1
