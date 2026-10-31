@@ -61,7 +61,7 @@ touching anyone else's files. Some people take two small ones. The leads take th
 | INV-3 | Payment dialog | `pos/invoices/ui/PaymentDialog.java` | Quick buttons "Pay full balance" and "Pay half". Clearer error messages. | | Williams Fadejimi Eniola (F/ND/25/3210016) |
 | INV-4 | Invoice detail dialog | `pos/invoices/ui/InvoiceDetailDialog.java` | A Print button that uses the browser's print layout. | | Isaac Daniel Ukwuoma (F/ND/25/3210281) |
 | INV-5 | Invoice PDF | `pos/invoices/pdf/InvoicePdf.java`, `pos/invoices/ui/InvoiceDownloads.java`, `test/invoices/pdf/InvoicePdfTest.java` | Added the business name block with address, and page numbers in the footer. | | Adeniyi Omoseeke Inioluwa (F/ND/25/3210001) |
-| INV-6 | Export and styling | `css/invoices.css`, new `pos/invoices/ui/InvoiceCsv.java` | An "Export CSV" button for the filtered list. | INV-1 | Lawal AbdulBasit Ayinde (F/ND/25/3210206) |
+| INV-6 | Export and styling | `css/invoices.css`, new `pos/invoices/ui/InvoiceCsv.java` | An "Export CSV" button for the filtered list. | INV-1 | Amaize Abraham Maxwell(F/ND/25/3210232) |
 
 ### DEBT: Debt Recovery (Group 7)
 
