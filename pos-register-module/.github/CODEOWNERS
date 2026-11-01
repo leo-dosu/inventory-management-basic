@@ -1,4 +1,4 @@
-# CODEOWNERS: who owns which file or folder.
+y# CODEOWNERS: who owns which file or folder.
 # Each owner is shown as @USERNAME_<FIRSTNAME>. Replace it with that your real GitHub username.
 
 # ---------- Whole project: leaders ----------
@@ -185,10 +185,10 @@
 /src/main/java/com/inventory/pos/contracts/    @paufx442   # CON-1
 
 # ---------- Mathew Martha Theresa (F/ND/25/3210161), Group 7 member ----------
-/src/main/java/com/inventory/pos/purchasing/domain/      @USERNAME_MATHEW   # PO-1
-/src/main/java/com/inventory/pos/purchasing/repository/  @USERNAME_MATHEW   # PO-1
-/src/main/java/com/inventory/pos/purchasing/service/     @USERNAME_MATHEW   # PO-1
-/src/test/java/com/inventory/pos/purchasing/             @USERNAME_MATHEW   # PO-1
+/src/main/java/com/inventory/pos/purchasing/domain/      @marthamathew01   # PO-1
+/src/main/java/com/inventory/pos/purchasing/repository/  @marthamathew01   # PO-1
+/src/main/java/com/inventory/pos/purchasing/service/     @marthamathew01   # PO-1
+/src/test/java/com/inventory/pos/purchasing/             @marthamathew01   # PO-1
 
 # ---------- Balogun Sekinat (F/ND/25/3210095), Group 7 member ----------
 /src/main/java/com/inventory/pos/purchasing/ui/               @sekinat-prog   # PO-2
