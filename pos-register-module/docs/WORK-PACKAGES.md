@@ -49,8 +49,8 @@ touching anyone else's files. Some people take two small ones. The leads take th
 | REG-3 | Product catalogue | `pos/register/ui/ProductCatalogue.java` | Typing an exact SKU and pressing Enter adds that product (barcode scanners type like this). Added a "low stock" tag. | | Salami Benjamin Boluwatife (F/ND/25/3210285) |
 | REG-4 | Cart panel | `pos/register/ui/CartPanel.java` | Added a "clear cart" button with confirmation. Kept the totals exactly in step with the invoice. | | Abibat Foladara Omosanya (F/ND/25/3210213) |
 | REG-5 | Checkout dialog | `pos/register/ui/CheckoutDialog.java` | Lets the cashier add more than one payment (cash plus card) until the total is covered. Needs REG-1's backend. | REG-1 | Saadu Quadri Bolaji (F/ND/25/3210151) |
-| REG-6 | Custom item dialog | `pos/register/ui/CustomItemDialog.java` | Better validation messages, a maximum length, and remember the last description. | | Uche Gift Ebube (F/ND/25/3210114) |
-| REG-7 | Register styling | `css/register.css` | A tablet layout (768 px wide) and bigger touch targets. | | Abdulsalam Mazeed Adedeji (F/ND/25/3210190) |
+| REG-6 | Custom item dialog | `pos/register/ui/CustomItemDialog.java` | Better validation messages, a maximum length, and remember the last description. | | Abdulsalam Mazeed Adedeji (F/ND/25/3210190) |
+| REG-7 | Register styling | `css/register.css` | A tablet layout (768 px wide) and bigger touch targets. | | Ogundare Omoyemi Victoria (F/nd/25/3210233) |
 
 ### INV: Invoices (Group 6)
 
