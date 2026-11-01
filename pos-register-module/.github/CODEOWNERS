@@ -1,5 +1,4 @@
-y# CODEOWNERS: who owns which file or folder.
-# Each owner is shown as @USERNAME_<FIRSTNAME>. Replace it with that your real GitHub username.
+# CODEOWNERS: who owns which file or folder.
 
 # ---------- Whole project: leaders ----------
 /pom.xml    @cosmicdosh01-maker @Liquidity12
@@ -51,9 +50,9 @@ y# CODEOWNERS: who owns which file or folder.
 # ---------- Saadu Quadri Bolaji (F/ND/25/3210151), Group 6 member ----------
 /src/main/java/com/inventory/pos/register/ui/CheckoutDialog.java  @bolajiq664-cyber   # REG-5
 
-# ---------- Uche Gift Ebube (F/ND/25/3210114), Group 6 member ----------
-/src/main/java/com/inventory/pos/register/ui/CustomItemDialog.java  @USERNAME_UCHE   # REG-6
-/src/main/resources/META-INF/resources/styles/register.css          @USERNAME_UCHE   # REG-7
+# ---------- Abdulsalam Mazeed Adedeji (F/ND/25/3210190), Group 6 member ----------
+/src/main/java/com/inventory/pos/register/ui/CustomItemDialog.java  @abdulsalamadedeji01-droid   # REG-6
+/src/main/resources/META-INF/resources/styles/register.css          @abdulsalamadedeji01-droid   # REG-7
 
 # ---------- Ogundare Omoyemi Victoria (F/nd/25/3210233), Group 6 member ----------
 /src/main/java/com/inventory/pos/invoices/service/InvoiceService.java      @Ajikeade-Ade   # INV-1
@@ -184,7 +183,7 @@ y# CODEOWNERS: who owns which file or folder.
 /src/main/java/com/inventory/pos/vendorcomms/  @paufx442   # COM-1
 /src/main/java/com/inventory/pos/contracts/    @paufx442   # CON-1
 
-# ---------- Mathew Martha Theresa (F/ND/25/3210161), Group 7 member ----------
+# ---------- Mathew Martha Theresa (F/ND/25/3210161), Group 6 member ----------
 /src/main/java/com/inventory/pos/purchasing/domain/      @marthamathew01   # PO-1
 /src/main/java/com/inventory/pos/purchasing/repository/  @marthamathew01   # PO-1
 /src/main/java/com/inventory/pos/purchasing/service/     @marthamathew01   # PO-1
